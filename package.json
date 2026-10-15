@@ -1,0 +1,24 @@
+{
+  "name": "madake-web",
+  "version": "1.0.0",
+  "description": "Sitio web de captación de leads — Corporación Madake SA de CV",
+  "private": true,
+  "scripts": {
+    "dev":   "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint":  "next lint"
+  },
+  "dependencies": {
+    "next":              "14.2.3",
+    "@supabase/supabase-js": "^2.43.4",
+    "resend":            "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint":            "^8",
+    "eslint-config-next":"14.2.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

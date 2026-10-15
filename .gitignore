@@ -1,0 +1,29 @@
+# ─── Credenciales — NUNCA subir ───────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ─── Next.js ──────────────────────────────────────────────────
+.next/
+out/
+build/
+
+# ─── Dependencias ─────────────────────────────────────────────
+node_modules/
+
+# ─── Sistema operativo ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Editores ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Logs ─────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+.vercel
