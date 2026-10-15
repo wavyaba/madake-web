@@ -11,10 +11,7 @@ const supabaseUrl  = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseAnon = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
 if (!supabaseUrl || !supabaseAnon) {
-  throw new Error(
-    '[Madake] Faltan variables de entorno de Supabase.\n' +
-    'Asegúrate de tener NEXT_PUBLIC_SUPABASE_URL y NEXT_PUBLIC_SUPABASE_ANON_KEY en tu .env.local'
-  );
+  console.warn('[Madake] Faltan variables de entorno de Supabase.');
 }
 
 // Cliente público (anon) — solo puede INSERT en leads gracias a RLS
