@@ -132,7 +132,10 @@ export default function MadakePage() {
       </nav>
 
       <section className="hero-section">
-        <video className="hero-video" autoPlay muted loop playsInline src="hero-madake.mov" />
+        <video className="hero-video" autoPlay muted loop playsInline>
+  <source src="hero-madake.webm" type="video/webm" />
+  <source src="hero-madake.mp4" type="video/mp4" />
+</video>
         <div className="hero-overlay"></div>
         <div className="hero-fg">
           <div className="hero-content">
